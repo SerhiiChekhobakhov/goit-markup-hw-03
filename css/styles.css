@@ -1,0 +1,294 @@
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --hover-link-color: #2196f3;
+  --button-text-color: #ffffff;
+  --logo-color-blue: #2196f3;
+  --logo-color-black: #000000;
+  --logo-color-white: #ffffff;
+  --hero-title-color: #ffffff;
+  --background-color: #ffffff;
+  --background-color-footer: #2f303a;
+  --background-color-hero: #2f303a;
+  --background-color-button: #2196f3;
+  --team-card-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --section-block-grey: #f5f4fa;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Roboto', 'Raleway', 'sans-serif';
+  color: var(--title-color);
+  font-size: 14px;
+}
+
+/* Логотип */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-black);
+  text-decoration: none;
+}
+
+.web-logo {
+  color: var(--logo-color-blue);
+}
+
+/* Навігація */
+
+.site-nav {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.nav-link.current {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--hover-link-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-link-color);
+}
+
+/* Контакти в навігації */
+
+.contacts-nav {
+  list-style: none;
+}
+
+.contacts-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--hover-link-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--background-color-hero);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+}
+
+/* Кнопка у герої */
+
+.request-our-service {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--background-color-button);
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+/* Особливості */
+
+.peculiarities-list {
+  list-style: none;
+}
+
+.peculiarities-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.peculiarities-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* Назва секції */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Діяльність */
+
+.activities-list {
+  list-style: none;
+}
+
+/* Команда */
+
+.our-team {
+  background-color: var(--section-block-grey);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-card {
+  background: var(--team-card-color);
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* Портфоліо */
+
+.filters-list {
+  list-style: none;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+/* Кнопки портфоліо */
+
+.button-filters {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.button-filters:hover,
+.button-filters:focus {
+  font-family: inherit;
+  color: var(--button-text-color);
+  background-color: var(--background-color-button);
+}
+
+.product-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.product-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.product-link {
+  text-decoration: none;
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--background-color-footer);
+}
+
+/* Логотип у футері */
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-white);
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+/* Адреса у футері */
+
+.footer-adress {
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+/* Контакти у футері */
+
+.footer-contacts {
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--hover-link-color);
+}
+
+/* Приховування елементів */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
