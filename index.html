@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,30 +22,22 @@
     <header class="page-header">
       <!--Логотип-->
       <!--Навігація-->
-      <nav>
+      <nav class="container">
         <a href="./index.html" class="logo"
           ><span class="web-logo">Web</span>Studio</a
         >
         <ul class="site-nav">
           <li>
-            <a
-              href="https://serhiichekhobakhov.github.io/goit-markup-hw-02/index.html"
-              class="nav-link current"
-              >Студія</a
-            >
+            <a href="./index.html" class="nav-link current">Студія</a>
           </li>
           <li>
-            <a
-              href="https://serhiichekhobakhov.github.io/goit-markup-hw-02/portfolio.html"
-              class="nav-link"
-              >Портфоліо</a
-            >
+            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
           </li>
           <li><a href="" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
       <!--Контакти-->
-      <ul class="contacts-nav">
+      <ul class="container contacts-nav">
         <!--Посилання на email адресу-->
         <li>
           <a href="mailto:info@devstudio.com" class="contacts-link"
@@ -71,105 +66,111 @@
       </section>
       <!--Особливості-->
       <section class="peculiarities">
-        <h2 class="visually-hidden">Особливості</h2>
-        <ul class="peculiarities-list">
-          <li>
-            <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="peculiarities-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="peculiarities-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
-            <p class="peculiarities-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="peculiarities-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container peculiarities">
+          <h2 class="visually-hidden">Особливості</h2>
+          <ul class="peculiarities-list">
+            <li>
+              <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="peculiarities-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="peculiarities-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
+              <p class="peculiarities-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="peculiarities-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Діяльність-->
       <section>
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="activities-list">
-          <li>
-            <img
-              src="./images/desktop-apps.jpg"
-              alt="Десктопні додатки"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/mobile-apps.jpg"
-              alt="Мобільні додатки"
-              width="370"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/design-solutions.jpg"
-              alt="Дизайнерські рішення"
-              width="370"
-            />
-          </li>
-        </ul>
+        <div class="container activities">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="activities-list">
+            <li>
+              <img
+                src="./images/desktop-apps.jpg"
+                alt="Десктопні додатки"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/mobile-apps.jpg"
+                alt="Мобільні додатки"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/design-solutions.jpg"
+                alt="Дизайнерські рішення"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Наша команда-->
       <section class="our-team">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="team-list">
-          <li class="team-card">
-            <img
-              src="./images/christopher-walker.jpg"
-              alt="Ігор Дем'яненко"
-              width="270"
-            />
-            <h3 class="employee-name">Ігор Дем'яненко</h3>
-            <p lang="en" class="employee-position">Product Designer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/kylie-evans.jpg"
-              alt="Ольга Рєпіна"
-              width="270"
-            />
-            <h3 class="employee-name">Ольга Рєпіна</h3>
-            <p lang="en" class="employee-position">Frontend Developer</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/ryan-harris.jpg"
-              alt="Микола Тарасов"
-              width="270"
-            />
-            <h3 class="employee-name">Микола Тарасов</h3>
-            <p lang="en" class="employee-position">Marketing</p>
-          </li>
-          <li class="team-card">
-            <img
-              src="./images/tyler-moore.jpg"
-              alt="Михайло Єрмаков"
-              width="270"
-            />
-            <h3 class="employee-name">Михайло Єрмаков</h3>
-            <p lang="en" class="employee-position">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container team">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-card">
+              <img
+                src="./images/christopher-walker.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+              />
+              <h3 class="employee-name">Ігор Дем'яненко</h3>
+              <p lang="en" class="employee-position">Product Designer</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/kylie-evans.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+              />
+              <h3 class="employee-name">Ольга Рєпіна</h3>
+              <p lang="en" class="employee-position">Frontend Developer</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/ryan-harris.jpg"
+                alt="Микола Тарасов"
+                width="270"
+              />
+              <h3 class="employee-name">Микола Тарасов</h3>
+              <p lang="en" class="employee-position">Marketing</p>
+            </li>
+            <li class="team-card">
+              <img
+                src="./images/tyler-moore.jpg"
+                alt="Михайло Єрмаков"
+                width="270"
+              />
+              <h3 class="employee-name">Михайло Єрмаков</h3>
+              <p lang="en" class="employee-position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
