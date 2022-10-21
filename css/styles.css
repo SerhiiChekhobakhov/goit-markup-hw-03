@@ -116,6 +116,14 @@ body {
   margin-bottom: 50px;
 }
 
+/* Контейнер */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+
 /* Герой */
 
 .hero {
@@ -182,12 +190,6 @@ body {
   margin-top: 10px;
 }
 
-.container.peculiarities {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
-}
-
 /* Діяльність */
 
 .section.activities {
@@ -247,12 +249,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-.container.team {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
 }
 
 /* Портфоліо */
@@ -353,12 +349,6 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--hover-link-color);
-}
-
-.container.footer {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
 }
 
 /* Приховування елементів */
