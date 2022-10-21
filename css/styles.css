@@ -143,6 +143,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
+  padding: 0 15px;
 }
 
 /* Герой */
@@ -150,6 +151,7 @@ body {
 .hero {
   background-color: var(--background-color-hero);
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -458,7 +460,7 @@ body {
 }
 
 .footer-contacts.mail {
-  margin-bottom: 9px
+  margin-bottom: 9px;
 }
 
 .footer-contacts:hover,
