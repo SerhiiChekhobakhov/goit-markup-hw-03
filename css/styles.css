@@ -118,7 +118,7 @@ body {
 
   display: flex;
   justify-content: space-between;
-  gap: 334px;
+  gap: 344px;
 }
 
 /* Секції */
@@ -164,6 +164,10 @@ body {
   margin-bottom: 30px;
 }
 
+.container.hero-title {
+  width: 696px;
+}
+
 /* Кнопка у герої */
 
 .request-our-service {
@@ -199,6 +203,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 30px;
+}
+
+.peculiarities-item {
+  display: inline;
 }
 
 .peculiarities-title {
@@ -322,8 +330,7 @@ body {
 
   display: flex;
   flex-wrap: wrap;
-  row-gap: 30px;
-  column-gap: 30px;
+  gap: 30px;
 }
 
 /* Кнопки портфоліо */
@@ -361,6 +368,8 @@ body {
 .products-card {
   background-color: var(--background-color);
   border: 1px solid #eeeeee;
+  width: 370px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .product-photo {
