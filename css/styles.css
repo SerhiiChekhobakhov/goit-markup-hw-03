@@ -206,7 +206,8 @@ body {
 
 .activities-list {
   list-style: none;
-  margin-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Команда */
@@ -218,6 +219,7 @@ body {
 .team-list {
   list-style: none;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-card {
@@ -345,6 +347,8 @@ body {
 
 .footer-list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Адреса у футері */
