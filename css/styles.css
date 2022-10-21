@@ -14,6 +14,7 @@
   --team-card-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --section-block-grey: #f5f4fa;
+  --products-card-bcg: #EEEEEE;
 }
 
 body {
@@ -42,7 +43,8 @@ body {
 /* Навігація */
 
 .page-header {
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .site-nav {
@@ -255,10 +257,14 @@ body {
 
 .filters-list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .projects-list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Кнопки портфоліо */
@@ -281,11 +287,23 @@ body {
   background-color: var(--background-color-button);
 }
 
+/* Продукти */
+
+.products-card {
+  background-color: var(--background-color);
+}
+
+.product-photo {
+  margin-bottom: 20px;
+}
+
 .product-name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .product-text {
@@ -293,6 +311,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .product-link {
@@ -303,8 +324,8 @@ body {
 
 .footer {
   background-color: var(--background-color-footer);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Логотип у футері */
@@ -349,6 +370,11 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--hover-link-color);
+}
+
+.container.footer {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Приховування елементів */
