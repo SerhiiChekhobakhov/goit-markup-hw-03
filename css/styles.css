@@ -101,6 +101,7 @@ body {
 .hero {
   background-color: var(--background-color-hero);
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -139,8 +140,16 @@ body {
 
 /* Особливості */
 
+.peculiarities {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+
 .peculiarities-list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .peculiarities-title {
@@ -148,8 +157,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -164,7 +171,6 @@ body {
 }
 
 .container.peculiarities {
-  margin-top: 94px;
   margin-bottom: 94px;
 }
 
@@ -175,14 +181,20 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
 /* Діяльність */
 
+.activities {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+}
+
 .container.activities {
   margin-bottom: 94px;
-  padding-bottom: 94px;
 }
 
 .activities-list {
@@ -193,14 +205,26 @@ body {
 
 .our-team {
   background-color: var(--section-block-grey);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
   list-style: none;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
 }
 
 .team-card {
   background: var(--team-card-color);
+  padding-bottom: 30px;
+}
+
+.employee-photo {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .employee-name {
@@ -209,6 +233,9 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .employee-position {
@@ -217,11 +244,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
 
-.container.team {
-  padding-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Портфоліо */
@@ -276,6 +302,8 @@ body {
 
 .footer {
   background-color: var(--background-color-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Логотип у футері */
