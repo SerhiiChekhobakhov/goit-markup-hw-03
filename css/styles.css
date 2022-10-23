@@ -56,11 +56,10 @@ body {
 
 .site-nav {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   display: flex;
   gap: 50px;
-  padding-left: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -89,12 +88,11 @@ body {
 
 .contacts-nav {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
   align-items: center;
-  padding-left: 0;
   gap: 50px;
 }
 
@@ -164,10 +162,11 @@ body {
   color: var(--hero-title-color);
   margin-top: 0;
   margin-bottom: 30px;
+  width: 696px
 }
 
 .container.hero-title {
-  width: 696px;
+  margin: 0 auto;
 }
 
 /* Кнопка у герої */
@@ -197,13 +196,10 @@ body {
 
 .peculiarities-list {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   gap: 30px;
 }
 
@@ -246,13 +242,15 @@ body {
 
 .activities-list {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
-  justify-content: space-between;
   gap: 30px;
+}
+
+.activities-photo {
+  display: block;
 }
 
 /* Команда */
@@ -263,28 +261,15 @@ body {
 
 .team-list {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
-  justify-content: space-between;
   gap: 30px;
 }
 
 .team-card {
   background: var(--team-card-color);
-  padding-bottom: 30px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.employee-photo {
-  margin-top: 0;
-  margin-bottom: 30px;
 }
 
 .employee-name {
@@ -305,30 +290,30 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container-teamcard {
+  padding: 30px;
 }
 
 /* Портфоліо */
 
 .filters-list {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 50px;
-  padding-left: 0;
+  margin: 0 0 50px;
+  padding: 0;
 
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 8px;
 }
 
 .projects-list {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 
   display: flex;
   flex-wrap: wrap;
@@ -374,10 +359,6 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.product-photo {
-  margin-bottom: 20px;
-}
-
 .product-name {
   font-size: 18px;
   line-height: 2;
@@ -392,9 +373,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .product-link {
@@ -402,8 +382,8 @@ body {
 }
 
 .container.products-card {
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 0;
+  padding: 20px 24px;
   width: 322px;
   border: none;
 }
@@ -435,7 +415,15 @@ body {
   list-style: none;
   margin-top: 20px;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 9px;
+}
+
+.footer-list li:last-child {
+  margin: 0;
 }
 
 /* Адреса у футері */
@@ -446,7 +434,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-color);
   text-decoration: none;
-  margin-bottom: 9px;
 }
 
 /* Контакти у футері */
@@ -457,10 +444,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
   text-decoration: none;
-}
-
-.footer-contacts.mail {
-  margin-bottom: 9px;
 }
 
 .footer-contacts:hover,

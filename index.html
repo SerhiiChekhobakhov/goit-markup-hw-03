@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
@@ -113,6 +113,7 @@
                 src="./images/desktop-apps.jpg"
                 alt="Десктопні додатки"
                 width="370"
+                class="activities-photo"
               />
             </li>
             <li>
@@ -120,6 +121,7 @@
                 src="./images/mobile-apps.jpg"
                 alt="Мобільні додатки"
                 width="370"
+                class="activities-photo"
               />
             </li>
             <li>
@@ -127,6 +129,7 @@
                 src="./images/design-solutions.jpg"
                 alt="Дизайнерські рішення"
                 width="370"
+                class="activities-photo"
               />
             </li>
           </ul>
@@ -144,8 +147,10 @@
                 width="270"
                 class="employee-photo"
               />
-              <h3 class="employee-name">Ігор Дем'яненко</h3>
-              <p lang="en" class="employee-position">Product Designer</p>
+              <div class="container-teamcard">
+                <h3 class="employee-name">Ігор Дем'яненко</h3>
+                <p lang="en" class="employee-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -154,8 +159,10 @@
                 width="270"
                 class="employee-photo"
               />
-              <h3 class="employee-name">Ольга Рєпіна</h3>
-              <p lang="en" class="employee-position">Frontend Developer</p>
+              <div class="container-teamcard">
+                <h3 class="employee-name">Ольга Рєпіна</h3>
+                <p lang="en" class="employee-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -164,8 +171,10 @@
                 width="270"
                 class="employee-photo"
               />
-              <h3 class="employee-name">Микола Тарасов</h3>
-              <p lang="en" class="employee-position">Marketing</p>
+              <div class="container-teamcard">
+                <h3 class="employee-name">Микола Тарасов</h3>
+                <p lang="en" class="employee-position">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -174,8 +183,10 @@
                 width="270"
                 class="employee-photo"
               />
-              <h3 class="employee-name">Михайло Єрмаков</h3>
-              <p lang="en" class="employee-position">UI Designer</p>
+              <div class="container-teamcard">
+                <h3 class="employee-name">Михайло Єрмаков</h3>
+                <p lang="en" class="employee-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -206,7 +217,7 @@
             </li>
             <!--Посилання на номер телефону-->
             <li>
-              <a href="tel:+380961111111" class="footer-contacts"
+              <a href="tel:+380961111111" class="footer-contacts tel"
                 >+38 096 111 11 11</a
               >
             </li>
