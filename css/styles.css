@@ -161,7 +161,7 @@ body {
   color: var(--hero-title-color);
   margin-top: 0;
   margin-bottom: 30px;
-  width: 696px
+  width: 696px;
 }
 
 .container.hero-title {
