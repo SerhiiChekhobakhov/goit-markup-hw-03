@@ -24,6 +24,10 @@ body {
   font-size: 14px;
 }
 
+img {
+  display: block;
+}
+
 /* Логотип */
 
 .logo {
@@ -137,8 +141,7 @@ body {
 /* Контейнер */
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
 }
@@ -159,9 +162,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-color);
-  margin-top: 0;
   margin-bottom: 30px;
   width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container.hero-title {
@@ -245,10 +249,6 @@ body {
 
   display: flex;
   gap: 30px;
-}
-
-.activities-photo {
-  display: block;
 }
 
 /* Команда */
@@ -349,8 +349,6 @@ body {
 
 .products-card {
   background-color: var(--background-color);
-  border: 1px solid #eeeeee;
-  width: 370px;
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -376,11 +374,12 @@ body {
   text-decoration: none;
 }
 
-.container.products-card {
+.container.products {
   margin: 0;
   padding: 20px 24px;
-  width: 322px;
-  border: none;
+  border-top: none;
+  border: 1px solid #eeeeee;
+  width: 370px;
 }
 
 /* Футер */
