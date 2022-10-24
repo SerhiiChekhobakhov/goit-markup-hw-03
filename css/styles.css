@@ -446,10 +446,6 @@ img {
   color: var(--hover-link-color);
 }
 
-.container.footer {
-  padding: 0;
-}
-
 /* Приховування елементів */
 
 .visually-hidden {
