@@ -374,12 +374,11 @@ img {
   text-decoration: none;
 }
 
-.container.products {
+.products {
   margin: 0;
   padding: 20px 24px;
   border-top: none;
   border: 1px solid #eeeeee;
-  width: 370px;
 }
 
 /* Футер */
